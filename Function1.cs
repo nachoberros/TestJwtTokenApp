@@ -19,7 +19,7 @@ namespace TestJwtTokenApp
         [Function("Function1")]
         public async Task<IActionResult> Run([HttpTrigger(AuthorizationLevel.Function, "get", "post")] HttpRequest req)
         {
-            _logger.LogInformation("C# HTTP trigger function processed a request...");
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
 
             try
             {
